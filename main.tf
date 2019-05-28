@@ -5,10 +5,6 @@ resource "null_resource" "test" {
 
 }
 
-resource "null_resource" "testbranch2" {
-
-}
-
-resource "null_resource" "test2" {
+resource "some_unknown_resource" "wontwork" {
 
 }
